@@ -6,7 +6,7 @@ This Python script allows you to generate ASCII art from images. It offers two m
 
 Before running the script, ensure you have the following dependencies installed:
 
-- Python 3.x
+- Python >= 3.12.8
 - Each of the required libraries (`pip install -r requirments.txt`)
 
 You'll also need a Personal Unsplash API key. You can obtain one by signing up on the [Unsplash website](https://unsplash.com/documentation).
@@ -27,15 +27,24 @@ You'll also need a Personal Unsplash API key. You can obtain one by signing up o
     python ascii_art_generator.py
     ```
 
-4. Follow the prompts to choose an option:
+4. Select an input mode:
    - **Search Image**: Enter the type of image you want to search for on Unsplash. The script will download the first matching image and convert it into ASCII art.
    - **Select Existing Image**: Enter the filename of an existing image in your local directory. The script will convert it into ASCII art.
 
+5. Select an output mode:
+   - **Text File**: Outputs ascii picture as text file.
+   - **Image File**: Outputs ascii picture as a picture.
+
+6. Select a scaling factor:
+   - **Scaling Factor**: Choose number (Recommended Range: `0.005 < scaling factor < 1.0`)
+   ***Note**: Very dependent on input image size
+
 ## Output
 
-The generated ASCII art will be saved as `output.txt` in the project directory.
+The generated ASCII art will be saved as `output.txt` or `result.png` in the project directory.
+
 
 ## Credits
 
 - This script uses the Unsplash API to search for images. Visit [Unsplash](https://unsplash.com/developers) for more information on the API.
-- ASCII art generation is based on the PIL (Python Imaging Library) module.
+- ASCII art generation utilizies the PIL (Python Imaging Library) module.

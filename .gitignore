@@ -1,0 +1,21 @@
+# Virtual Enviornment/Enviornment Variables (API Key)
+/env
+.env
+
+# Dev Folder Notes
+notes
+
+# Ignore all image file types
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.bmp
+*.tiff
+*.tif
+*.svg
+*.webp
+*.ico
+
+# Ignore text output from program
+output.txt
