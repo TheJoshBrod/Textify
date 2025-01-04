@@ -1,4 +1,4 @@
-# ASCII Art Generator
+# Textify
 
 This Python script allows you to generate ASCII art from images. It offers two main functionalities: searching for an image on Unsplash and generating ASCII art from it, or selecting an existing image from your local directory and converting it into ASCII art.
 
@@ -24,7 +24,7 @@ You'll also need a Personal Unsplash API key. You can obtain one by signing up o
 3. Run the script by executing the following command in your terminal:
 
     ```
-    python ascii_art_generator.py
+    python textify.py
     ```
 
 4. Select an input mode:
@@ -43,6 +43,9 @@ You'll also need a Personal Unsplash API key. You can obtain one by signing up o
 
 The generated ASCII art will be saved as `output.txt` or `result.png` in the project directory.
 
+## Contributing
+
+Contributions are welcome! If you have ideas for improvement or bug fixes, feel free to fork the repo and submit a pull request.
 
 ## Credits
 

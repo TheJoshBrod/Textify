@@ -60,6 +60,7 @@ def generator(filename, is_image, scaling_factor):
             text += gradient[int((pix[int(row),int(col)]/(255 / (len(gradient)-1))))]
         text+=('\n')
 
+    # Handles Output modes
     if not is_image:
         with open("output.txt",'w') as f:
             f.write(text[0:len(text)-1])
